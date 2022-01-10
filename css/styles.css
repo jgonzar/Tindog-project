@@ -57,11 +57,14 @@
         width:60%;
         transform:rotate(25deg);
         margin:20px 0 0 40px;
-        position: absolute;
-        
+        position: absolute;  
     }
-    .btn-outline-light{
-        margin-left:22px;
+    .row .title-btn{
+        font-size:1.8rem;
+        margin:35px 0 0 0;
+    }
+    .title-btn:last-of-type{
+        margin:35px 0 0 20px;
     }
 /*  */
 /* Features */
@@ -151,10 +154,6 @@
         font-size:60px;
         margin-bottom:60px;
     }
-    .row button{
-        width:40%;
-        font-size:1.8rem;
-    }
 /*  */
 /* Footer */
     #footer{
@@ -188,11 +187,21 @@
     }
 }
 @media(max-width:500px){
-    .btn{
-        margin:35px 0 0 0;
+     /* h2 */
+     h2, #cta h3, .features-heading, .testimonial-text, .title-heading, .pricing-heading{
+        font-size:4.2rem;
     }
+    /* Title section btn */
+        .row button{
+            font-size:1.4rem;
+        }
+   
     #cta button{
+        font-size:1.4rem;
         width:40%;
         margin: 0 auto;
+    }
+    #cta button:last-of-type{
+        margin:0 0 0 20px;
     }
 }
