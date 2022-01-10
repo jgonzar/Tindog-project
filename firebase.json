@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "Tindog-project",
+    "public": "/Tindog-project",
     "ignore": [
       "firebase.json",
       "**/.*",
