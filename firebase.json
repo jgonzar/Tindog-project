@@ -4,10 +4,7 @@
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
-      "**/.vscode/**",
-      "**/.gitignore**/",
-      "**README.md**/"
+      "**/node_modules/**"
     ],
     "rewrites": [
       {
