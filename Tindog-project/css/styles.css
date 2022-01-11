@@ -60,8 +60,9 @@
         position: absolute;  
     }
     .row .title-btn{
+        display:inline-block;
         font-size:1.8rem;
-        margin:35px 0 0 0;
+        margin:35px auto 0;
     }
     .title-btn:last-of-type{
         margin:35px 0 0 20px;
@@ -183,7 +184,7 @@
         }
         .phone-img{
             position:static;
-            margin-top:55px;
+            margin:40px auto 0;
             transform:rotate(0);
         }
     /* cta buttons */
@@ -201,9 +202,14 @@
         font-size:4.2rem;
     }
     /* Title section btn */
-        .row button{
-            font-size:1.4rem;
+        .row .title-btn{
+            font-size:1.2rem;
+            width:40%;
         }
+    /* Dog image */
+    .phone-img{
+        margin:40px auto 0;
+    }
      /*Cta buttons  */
         #cta button{
             font-size:1.4rem;
