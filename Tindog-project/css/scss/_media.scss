@@ -1,0 +1,43 @@
+@media(max-width:1028px){
+    /* title styles */
+        #title{
+            text-align: center;
+        }
+        .phone-img{
+            position:static;
+            margin:40px auto 0;
+            transform:rotate(0);
+        }
+    /* cta buttons */
+        #cta button{
+            width:40%;
+            margin: 0 auto;
+        }
+        #cta button:last-of-type{
+            margin:0 0 0 20px;
+        }
+}
+@media(max-width:500px){
+     /* h2 */
+     h2, #cta h3, .features-heading, .testimonial-text, .title-heading, .pricing-heading{
+        font-size:4.2rem;
+    }
+    /* Title section btn */
+        .row .title-btn{
+            font-size:1.2rem;
+            width:40%;
+        }
+    /* Dog image */
+    .phone-img{
+        margin:40px auto 0;
+    }
+     /*Cta buttons  */
+        #cta button{
+            font-size:1.4rem;
+            width:40%;
+            margin: 0 auto;
+        }
+        #cta button:last-of-type{
+            margin:0 0 0 20px;
+        }
+}

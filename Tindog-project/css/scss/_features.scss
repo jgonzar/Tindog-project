@@ -1,0 +1,24 @@
+.feature{
+    text-align: center;
+    padding:4.5%;
+}
+.feature p{
+    font-size:1.8rem;
+}
+.features-heading{
+    font-size:3rem;
+}
+#features{
+    position: relative;
+    width: 100%;
+    padding:7% 15%;
+    margin:0;
+    background-color: white;
+}
+#features i{
+    color:#fd9644;
+    line-height:1.5;
+}
+#features i:hover{
+    color:#ff4c68;
+}
